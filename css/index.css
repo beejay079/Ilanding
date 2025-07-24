@@ -1,0 +1,168 @@
+.navbar .nav-link.active{
+  color: #007cf0 !important;
+}
+
+.about.active{
+  color: #007cf0 !important;
+}
+.div1 h1{
+  font-size: 60px;
+}
+@media (max-width: 576px) {
+  .div1{
+  text-align: center;
+}
+.div1 h1{
+  font-size: 35px;
+}
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  bottom: 65px;
+  right: 50px;
+}
+@media (max-width:992px){
+  .absolute{
+    position: static;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .main{
+    text-align: center;
+  }
+}
+.div2 .icon{
+  background-color: rgba(173, 216, 230, 0.5);
+  color: #007cf0;
+}
+.div2:hover .icon{
+  background-color: #007cf0;
+  color: white;
+}
+/* .div2:hover{
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15), 0 -1rem -1rem rgba(0, 0, 0, 0.15);
+} */
+.div3 .icon{
+  background-color:#007cf0;
+  color: white;
+}
+.div4 a{
+  color: black;
+}
+.div5{
+  width: 70%;
+}
+.div5 h1{
+  font-size: 60px;
+}
+@media (max-width: 576px){
+  .div5{
+  text-align: center;
+  width: 90%;
+}
+.div5 h1{
+  font-size: 35px;
+}
+}
+.div5 .btn1{
+  outline: 2px solid white;
+}
+.div5 .btn1:hover{
+  color: #007cf0;
+  background-color: white;
+}
+.btn2{
+  color: black;
+}
+.btn2:hover{
+  color: #007cf0;
+}
+.btn3{
+  outline: 2px solid white;
+}
+.price{
+  font-size: 1.5rem;
+  font-weight: 600;
+  vertical-align: top;
+  line-height: 1;
+}
+.amount{
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.month{
+  font-size: 1rem;
+}
+.div6 .icon{
+    width: 40px; 
+    height: 40px;
+    color: #000000BF;
+    border: 1px solid #00000033;
+}
+.div6 .icon:hover{
+    color: #007cf0;
+    border: 1px solid #007cf0;
+}
+.div7{
+  font-size: 0.9rem;
+}
+.div7 a{
+  text-decoration: none;
+  color: black;
+}
+.div7 a:hover{
+    color: #007cf0;
+}
+.div8 a{
+  text-decoration: none;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+  padding: 10px 15px;
+}
+.div9{
+  position: relative;
+  margin-top: 80px;
+  height: 370px;
+}
+.relative1 {
+  position: relative;
+} 
+
+.absolute1 {
+  position: absolute;
+  top: 80px;
+  left: -30px;
+}
+.absolute2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width:992px){
+  .div9{
+    height: auto;
+  }
+  .relative1{
+    width: 100%;
+  }
+  .absolute1{
+    position: static;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .absolute2{
+    position: static;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
